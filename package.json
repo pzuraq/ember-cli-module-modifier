@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-module-modifier",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -44,7 +44,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "recast": "^0.11.13"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
